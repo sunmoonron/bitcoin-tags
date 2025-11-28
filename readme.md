@@ -3,7 +3,7 @@ This repo showcases Bitcoin release Tags charted alongside Bitcoin Halvings.
 It is a fun demo of webscraping + matplotlib practice all the while documenting the fun and unique history of Bitcoin's Open Source development. 
 
 ![Cumulative Releases](bitcoin_tag_plots.png)
-Above shows yearly batches. 
+Above shows Bitcoin relase chart tag with year breakdown.
 
 To run locally do:
 
