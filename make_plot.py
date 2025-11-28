@@ -235,6 +235,19 @@ def make_plot(tags: List[Tag], out_path: str):
         alpha=0.3,
         label="All tags / year",
     )
+    # add count labels inside the orange bars
+    for x, y in zip(year_dates, stable_counts_y):
+        if y > 0:
+            ax2.text(
+                x,
+                y / 2,
+                str(y),
+                ha="center",
+                va="center",
+                fontsize=8,
+                color="white",
+            )
+
     ax2.bar(
         year_dates,
         stable_counts_y,
